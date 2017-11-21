@@ -4,7 +4,7 @@ public abstract class Person
 	private String name1;     // Name 1 is First Name
 	private String name2;	  //Name 2 is Family Name
 	private int age;
-	private boolean gender;
+	private boolean gender;   // 1-male 0-female
 	
 	public Person (String name1, String name2, int age, boolean gender)
 	{
