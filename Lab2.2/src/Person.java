@@ -23,5 +23,5 @@ public abstract class Person
 		return this.name2;
 	}
 	
-	public abstract String toString();
+	public abstract String toString(); 
 }
