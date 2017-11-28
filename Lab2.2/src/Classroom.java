@@ -1,4 +1,4 @@
-
+//Wes Avedisian
 public class Classroom
 {
 	private Student[] students;
@@ -18,9 +18,11 @@ public class Classroom
 	public double classAverage()
 	{
 		double avg = 0;
-		for(Student student : students)
+		for(Student student : this.students)
 		{
-			
+			avg = avg + student.getGPA();
 		}
+		avg/=(this.students.length);
+		return avg;
 	}
 }
