@@ -10,20 +10,21 @@ public class Runner {
 	public static void main(String[] args)	
 	{
 		Teacher teacher = new Teacher("Nathan", "Levin", 35, true, "AP CompSci Java", "Mr.");
-		Student[] classs = new Student[12];
+		Classroom[] classs = new Classroom[13];
 		for (int x = 0; x < classs.length; x++)
 		{
 			Student[x] = randomStudent();
 		}
 		
-		public static Student randomStudent()
+		public Person[] randomStudents()
 		{
 			Random r = new Random();
 			int x = r.nextInt(8);
 			int y = r.nextInt(8);
 			int a = r.nextInt(3);
 			boolean g = (r.nextInt(1)==1);
-			Student s = Student(name1s[x], name2s[y], ages[a], g, )
+			double gPa = grades[r.nextDouble(13)];
+			Student s = Student(name1s[x], name2s[y], ages[a], g,  )
 			
 		}
 	}
