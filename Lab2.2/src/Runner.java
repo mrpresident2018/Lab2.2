@@ -4,8 +4,7 @@ public class Runner {
 	
 	String[] name1s = {"Jeff", "Stacey", "Pichael", "Abdul", "Monica", "George", "Clara", "Willburt"};
 	String[] name2s = {"Anderson", "Williams", "Thompson", "Bansal", "Chan", "Riccardo", "Avedisian", "Wallace"};
-	int[] ages = {14, 15, 16, 17};
-	double[] grades = {2.7, 2.8, 2.9, 3, 3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4};
+	
 	
 	public static void main(String[] args)	
 	{
@@ -21,10 +20,11 @@ public class Runner {
 			Random r = new Random();
 			int x = r.nextInt(8);
 			int y = r.nextInt(8);
-			int a = r.nextInt(3);
+			int a = r.nextInt(3)+14;
 			boolean g = (r.nextInt(1)==1);
-			double gPa = grades[r.nextDouble(13)];
-			Student s = Student(name1s[x], name2s[y], ages[a], g,  )
+			double gPa = r.nextDouble()+3;
+			
+			Student s = Student(name1s[x], name2s[y], ages[a], g, gPa, )
 			
 		}
 	}
